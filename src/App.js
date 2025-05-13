@@ -15,7 +15,7 @@ function App() {
             ex) <Route path="/woojin" element={<Woojin />} />
         */}
         <Route
-          path="/"
+          path="/t"
           element={<div>App.js와 example.js를 확인해주세요.</div>}
         />
         <Route path="/example" element={<Example />} />

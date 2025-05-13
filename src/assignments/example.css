@@ -1,0 +1,40 @@
+.form{
+    width: 300px;
+    height: 500px;
+}
+
+.center{
+      display: flex;
+    justify-content: center;  /* 가로 중앙 정렬 */
+  align-items: center;      /* 세로 중앙 정렬 */
+}
+
+.input-container{
+    display: flex;
+    flex-direction: row;
+    height:6%
+}
+.inp{
+    flex: 7;
+
+}
+.btn{
+    flex:3;
+    margin-left: 5%;
+}
+ul {
+  display: flex;
+  flex-direction: column;  /* 세로로 정렬 */
+  padding: 0;              /* 기본 padding 제거 */
+  margin: 0;               /* 기본 margin 제거 */
+}
+.list{
+  display: flex;              /* 리스트 항목을 flex로 설정 */
+  justify-content: space-between;  /* 양쪽 끝에 정렬 */
+  align-items: center;        /* 세로로 가운데 정렬 */
+  padding: 10px;              /* 여백 추가 */
+
+    background-color: rgba(128, 128, 128, 0.1);
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
